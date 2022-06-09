@@ -1,0 +1,104 @@
+@media (min-width: 0px) {
+  .conteiner {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("./images/blob-scene-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .conteinerThings {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    border: 1px solid #e8eaed;
+    border-radius: 6px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 24em;
+    width: 31em;
+    gap: 0.5em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .conteinerThings button {
+    width: 10em;
+  }
+  .div-form-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0.6em;
+  }
+  .div-form-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0.6em;
+  }
+  .form-select-right {
+    display: inline;
+    width: 18.75em;
+  }
+  .form-select-left {
+    display: inline;
+    width: 20em;
+    margin: 0;
+  }
+  button {
+    width: 10em;
+    height: 4em;
+    font-weight: 800;
+  }
+  .asd {
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+    margin-left: 15px;
+    width: 2em;
+    height: 2.5em;
+  }
+  .iconify {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 1.5em;
+    height: 1.5em;
+    color: white;
+  }
+  .iconify:hover {
+    cursor: pointer;
+  }
+  h1 {
+    margin: 0;
+  }
+  h2 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=index.css.map */

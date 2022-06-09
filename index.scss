@@ -1,0 +1,72 @@
+@media (min-width: 0px) {
+    .conteiner{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:url("./images/blob-scene-haikei.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteinerThings{
+        display: flex;
+        background-color: white;
+        border: 1px solid #e8eaed;
+        border-radius: 6px;
+        flex-direction: column;
+        height: 24em;
+        width: 31em;
+        gap: 0.5em;
+        align-items: center;
+        justify-content: start;
+        button{
+            width: 10em;
+        }
+    }
+    .div-form-left{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        margin: 0.6em;
+    }
+    .div-form-right{
+        display:flex;
+        flex-direction: row;
+        margin: 0.6em;
+    }
+    .form-select-right{
+        display: inline;
+        width: 18.75em;
+    }
+    .form-select-left{
+        display: inline;
+        width: 20em;
+        margin: 0;
+    }
+    button{
+        width: 10em;
+        height: 4em;
+        font-weight: 800;
+    }
+    .asd{
+        align-self: start;
+        margin-left: 15px;
+        width: 2em;
+        height: 2.5em;
+    }
+    .iconify{
+        align-self: center;
+        width: 1.5em;
+        height: 1.5em;
+        color: white;
+    } 
+    .iconify:hover{
+        cursor: pointer;
+    }
+    h1{
+        margin: 0;
+    }
+    h2{
+        align-self: center;
+    }
+}
